@@ -20,7 +20,11 @@ void Reta::draw(Screen &t)
     float delta_y;
     float x=xpi;
     float y=ypi;
+<<<<<<< HEAD
+    t.setPixel(0,0);
+=======
 
+>>>>>>> b25ac14087fa11707bbe9b4289243953cd0756f1
     (abs (xpf - xpi) > abs (ypf-ypi))
             ? tam = abs(xpf-xpi)
             : tam = abs(ypf-ypi);

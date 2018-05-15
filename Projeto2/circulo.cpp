@@ -29,6 +29,28 @@ void Circulo::draw(Screen &t)
                 }
             }
         }
+<<<<<<< HEAD
+    }
+    else{
+        int x1 = 0;
+        int y1 = r;
+        int diametro = 1 - r;
+        pontosDaCircunferencia(x1,y1,t);
+        while(y1 > x1){
+            if(diametro < 0){
+                diametro = diametro + 2*x1 + 3;
+                x1 = x1 + 1;
+            }
+            else{
+                diametro = diametro + 2*(x1-y1) + 5;
+                x1 = x1 + 1;
+                y1 = y1 - 1;
+            }
+            pontosDaCircunferencia(x1,y1,t);
+        }
+    }
+}
+=======
 }
     else{
         int x1 = 0;
@@ -49,6 +71,7 @@ void Circulo::draw(Screen &t)
                }
            }
     }
+>>>>>>> b25ac14087fa11707bbe9b4289243953cd0756f1
 void Circulo::pontosDaCircunferencia(int x1, int y1, Screen &t){
     t.setPixel(xc + x1, yc + y1);
     t.setPixel(xc + y1, yc + x1);

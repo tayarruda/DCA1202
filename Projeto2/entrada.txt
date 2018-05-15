@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+dim 25 25
+
+brush *
+
+circle 5 5 4 0
+
+brush $
+
+circle 15 15 4 1
+=======
 dim 60 20
 brush @
 line 5 5 10 8
 
+>>>>>>> b25ac14087fa11707bbe9b4289243953cd0756f1
