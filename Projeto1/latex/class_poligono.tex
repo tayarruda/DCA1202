@@ -1,0 +1,71 @@
+\hypertarget{class_poligono}{}\section{Poligono Class Reference}
+\label{class_poligono}\index{Poligono@{Poligono}}
+Inheritance diagram for Poligono\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_poligono}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_poligono_a9311a9a1496878c09c8508b3636e2870}{Poligono}} ()
+\begin{DoxyCompactList}\small\item\em Construtor default\+: \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poligono_a121937469d43a3b05a821fa14cb51e62}\label{class_poligono_a121937469d43a3b05a821fa14cb51e62}} 
+void {\bfseries insert\+Vertice} (\mbox{\hyperlink{class_point}{Point}} p)
+\item 
+\mbox{\Hypertarget{class_poligono_a5ce6c1bb536a15abea87aeaafcf1f045}\label{class_poligono_a5ce6c1bb536a15abea87aeaafcf1f045}} 
+int \mbox{\hyperlink{class_poligono_a5ce6c1bb536a15abea87aeaafcf1f045}{number\+Vertices}} (void)
+\begin{DoxyCompactList}\small\item\em Retorna o numero de vértices. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_poligono_a9b2abd1369df82e2fa93a145553de590}{calc\+Area}} (void)
+\begin{DoxyCompactList}\small\item\em Função que calcula a área do polígono. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poligono_ac8c10a46cd6a60078600085fc136d65e}\label{class_poligono_ac8c10a46cd6a60078600085fc136d65e}} 
+void \mbox{\hyperlink{class_poligono_ac8c10a46cd6a60078600085fc136d65e}{translate}} (float a, float b)
+\begin{DoxyCompactList}\small\item\em Função para transladar os vértices do polígono. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_poligono_a2f0b4d5f528fa2e474b991a6806c3eef}{rotate}} (float ang, \mbox{\hyperlink{class_point}{Point}} p)
+\begin{DoxyCompactList}\small\item\em Função para rotacionar o polígono. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poligono_a1a3d812834a6898c0db3d809d1c9a974}\label{class_poligono_a1a3d812834a6898c0db3d809d1c9a974}} 
+void \mbox{\hyperlink{class_poligono_a1a3d812834a6898c0db3d809d1c9a974}{impress}} (void)
+\begin{DoxyCompactList}\small\item\em Função que imprime o polígono. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_poligono_a9311a9a1496878c09c8508b3636e2870}\label{class_poligono_a9311a9a1496878c09c8508b3636e2870}} 
+\index{Poligono@{Poligono}!Poligono@{Poligono}}
+\index{Poligono@{Poligono}!Poligono@{Poligono}}
+\subsubsection{\texorpdfstring{Poligono()}{Poligono()}}
+{\footnotesize\ttfamily Poligono\+::\+Poligono (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor default\+: 
+
+Os 100 vértices do polígono são inicializados com (0,0). O número de vértices, por sua vez, é inicializado com 0. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_poligono_a9b2abd1369df82e2fa93a145553de590}\label{class_poligono_a9b2abd1369df82e2fa93a145553de590}} 
+\index{Poligono@{Poligono}!calc\+Area@{calc\+Area}}
+\index{calc\+Area@{calc\+Area}!Poligono@{Poligono}}
+\subsubsection{\texorpdfstring{calc\+Area()}{calcArea()}}
+{\footnotesize\ttfamily float Poligono\+::calc\+Area (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Função que calcula a área do polígono. 
+
+A função multiplica e soma todas as diagonais principais e secundárias da matriz e subtrai a soma das diagonais principais pela das diagonais secundárias. O resultado divide é dividido por 2. \mbox{\Hypertarget{class_poligono_a2f0b4d5f528fa2e474b991a6806c3eef}\label{class_poligono_a2f0b4d5f528fa2e474b991a6806c3eef}} 
+\index{Poligono@{Poligono}!rotate@{rotate}}
+\index{rotate@{rotate}!Poligono@{Poligono}}
+\subsubsection{\texorpdfstring{rotate()}{rotate()}}
+{\footnotesize\ttfamily void Poligono\+::rotate (\begin{DoxyParamCaption}\item[{float}]{ang,  }\item[{\mbox{\hyperlink{class_point}{Point}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Função para rotacionar o polígono. 
+
+A função move os pontos para o ponto de rotação, monta a matriz de translação e então os pontos voltam para a posição original já rotacionados 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+poligono.\+h\item 
+poligono.\+cpp\end{DoxyCompactItemize}
