@@ -1,0 +1,47 @@
+\hypertarget{class_circulo}{}\section{Circulo Class Reference}
+\label{class_circulo}\index{Circulo@{Circulo}}
+Inheritance diagram for Circulo\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_circulo}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_circulo_a3d5f277619ed35f4a8cd455dd1510a20}\label{class_circulo_a3d5f277619ed35f4a8cd455dd1510a20}} 
+{\bfseries Circulo} (int \+\_\+x, int \+\_\+y, int raio, int fill)
+\item 
+void \mbox{\hyperlink{class_circulo_a593787d6e0618c2eded23e8839e7bea6}{draw}} (\mbox{\hyperlink{class_screen}{Screen}} \&t)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_circulo_a593787d6e0618c2eded23e8839e7bea6}{Circulo\+::draw}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_circulo_a197439e429d6636a4a43d77e02b20486}\label{class_circulo_a197439e429d6636a4a43d77e02b20486}} 
+void {\bfseries pontos\+Da\+Circunferencia} (int x1, int y1, \mbox{\hyperlink{class_screen}{Screen}} \&t)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_circulo_a593787d6e0618c2eded23e8839e7bea6}\label{class_circulo_a593787d6e0618c2eded23e8839e7bea6}} 
+\index{Circulo@{Circulo}!draw@{draw}}
+\index{draw@{draw}!Circulo@{Circulo}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Circulo\+::draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_screen}{Screen}} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_circulo_a593787d6e0618c2eded23e8839e7bea6}{Circulo\+::draw}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \\
+\hline
+\end{DoxyParams}
+Percorre a extensão do círculo do (centro menos o raio) até o (centro mais o raio) nas direções de x e y, verificando se as coordenadas fornecidas atendem a equação do círculo (x-\/a)² + (y-\/b)² = r². Se o circulo for preenchido, a comparação é feita com a desigualdade $<$=. Se nao, os píxels serão alocados por meio do algoritmo de Bresenham. 
+
+Implements \mbox{\hyperlink{class_figura_geometrica}{Figura\+Geometrica}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+circulo.\+h\item 
+circulo.\+cpp\end{DoxyCompactItemize}
