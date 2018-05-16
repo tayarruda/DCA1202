@@ -2,6 +2,12 @@
 #define CIRCULO_H
 #include "figurageometrica.h"
 
+/**
+ * @brief The Circulo class
+ * @details O parâmetro P é a opção de preencher ou contornar o círculo
+ *  (p=0 -> contorno, p=1 -> preenchido)
+ */
+
 class Circulo : public FiguraGeometrica
 {
     int xc, yc, r, p;

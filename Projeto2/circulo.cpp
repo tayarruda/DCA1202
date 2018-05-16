@@ -49,6 +49,7 @@ void Circulo::draw(Screen &t)
         }
     }
 }
+
 void Circulo::pontosDaCircunferencia(int x1, int y1, Screen &t){
     t.setPixel(xc + x1, yc + y1);
     t.setPixel(xc + y1, yc + x1);
